@@ -49,7 +49,7 @@ You'll need to add the correct maven dependency for the needed `Driver` in `pom.
 You need Java and maven installed.
 
     mvn spring-boot:run
-    open http://localhost:8080
+    open http://localhost:8080/actuator/health
 
 # Help
 
