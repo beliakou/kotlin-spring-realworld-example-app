@@ -19,3 +19,9 @@ target/
 #System Files
 .DS_Store
 Thumbs.db
+
+#Maven release
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+release.properties
