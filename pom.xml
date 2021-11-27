@@ -13,7 +13,14 @@
 	<scm>
 		<connection>scm:git:https://github.com/beliakou/kotlin-spring-realworld-example-app.git</connection>
 	  <tag>v0.0.1</tag>
-  </scm>
+  	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>github.com</id>
+			<url>https://maven.pkg.github.com/beliakou/kotlin-spring-realworld-example-app</url>
+		</repository>
+	</distributionManagement>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -179,13 +186,6 @@
             <id>jcenter</id>
             <url>https://jcenter.bintray.com/</url>
         </repository>
-		<repository>
-			<id>github</id>
-			<url>https://maven.pkg.github.com/beliakou/kotlin-spring-realworld-example-app</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
 
     </repositories>
 
