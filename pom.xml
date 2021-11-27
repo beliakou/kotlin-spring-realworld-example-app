@@ -179,6 +179,13 @@
             <id>jcenter</id>
             <url>https://jcenter.bintray.com/</url>
         </repository>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/beliakou/kotlin-spring-realworld-example-app</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 
     </repositories>
 
