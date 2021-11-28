@@ -4,7 +4,7 @@
 
 	<groupId>io.realworld</groupId>
 	<artifactId>api</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<packaging>jar</packaging>
 
 	<name>api</name>
@@ -12,7 +12,8 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/beliakou/kotlin-spring-realworld-example-app.git</connection>
-  	</scm>
+  	  <tag>v0.0.4</tag>
+  </scm>
 
 	<distributionManagement>
 		<repository>
