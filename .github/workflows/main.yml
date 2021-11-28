@@ -8,11 +8,12 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      GIT_AUTHOR_NAME: git_actions
-      GIT_AUTHOR_EMAIL: vbeliakou@protonmail.com
     steps:
       - uses: actions/checkout@v2
+      - name: Setup git user
+        run: |
+          git config --global user.name "github_actions"
+          git config --global user.email "vbeliakou@protonmail.com"
       - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
